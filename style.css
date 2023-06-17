@@ -1,4 +1,14 @@
-.navbar {
+         h1 {
+            text-align: center;
+            font-size: 48px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            transform: perspective(800px) rotateX(30deg);
+        }
+
+        .navbar {
             background-color: rgb(200, 227, 213);
             padding: 10px;
             text-align: center;
@@ -175,3 +185,31 @@
 
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+.navbar {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transform-style: preserve-3d;
+        }
+
+        .navbar a {
+            color: inherit;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            font-weight: bold;
+            transform-style: preserve-3d;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+        }
