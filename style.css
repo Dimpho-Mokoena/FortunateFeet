@@ -1,4 +1,4 @@
-        .navbar {
+.navbar {
             background-color: rgb(200, 227, 213);
             padding: 10px;
             text-align: center;
@@ -120,3 +120,58 @@
   font-size: 16px;
   transform: rotateX(10deg);
 }
+.email-card {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.email-card h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-info p {
+  color: #555;
+  margin: 0;
+}
+
+.email-form h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.email-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.email-form input,
+.email-form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.email-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
