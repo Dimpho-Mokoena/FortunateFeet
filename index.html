@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Fortunate Feet</title>
-    </head>
+   </head>
+
 <body style="background-color: rgb(228, 218, 205);">
     <div class="navbar">
         <a href="#about">About</a>
@@ -44,11 +45,30 @@
         </div>
     </div>
 </section>
+
     <section id="contact">
         <h1>Contact</h1>
         <hr>
-        <div class="contact">
-            email: dimphomokay@gmail.com
+        <div class="email-card">
+            <h3>Contact</h3>
+            <div class="card-content">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> Email: contact@example.com</p>
+                    <p><i class="fas fa-phone"></i> Phone: +1 123 456 7890</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Address: 123 Main Street, City, Country</p>
+                </div>
+                <div class="email-form">
+                    <h4>Send an Email</h4>
+                    <form action="mailto:contact@example.com" method="post" enctype="text/plain">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         </div>
     </section>
 
@@ -112,6 +132,7 @@
             <img src="one.jpg" alt="Image 3" onclick="openModal('image11.jpg')">
         </div>
     </div>
+
     <div class="image-grid">
         <div class="image">
             <img src="two.jpg" alt="Image 2" onclick="openModal('image10.jpg')">
@@ -126,5 +147,6 @@
         <span class="close" onclick="closeModal()">&times;</span>
         <img id="modal-image" src="" alt="Modal Image">
     </div>
+
     </section>
         <script src="script.js"></script>
