@@ -1,4 +1,4 @@
- function openModal(imageUrl) {
+            function openModal(imageUrl) {
                 let modal = document.getElementById("modal");
                 let modalImage = document.getElementById("modal-image");
                 modalImage.src = imageUrl;
