@@ -1,238 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fortunate Feet</title>
-<style>
-    h1 {
-        text-align: center;
-        color: purple;
-        background-color: rgb(200, 227, 213);
-    }
-
-    h2 {
-        text-align: center;
-        color: rgb(224, 154, 224);
-    }
-
-    p {
-        text-align: center;
-        font-size: 18px;
-        opacity: 0.7;
-        text-align: center;
-        font-family: monospace;
-    }
-
-    h3 {
-        text-align: center;
-        font-style: oblique;
-    }
-
-    button {
-        padding: 16px 24px;
-        width: 160px;
-        display: block;
-        margin: 40px auto;
-        border-radius: 40px;
-        color: rgb(62, 41, 64);
-        box-shadow: 0px 5px 10px 0px;
-        transition: all 200ms ease-in-out;
-        background: white;
-        border: rgb(213, 55, 139);
-        font-size: 16px;
-        line-height: 22px;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
-    .instagram {
-        padding: 16px 24px;
-        width: 130px;
-        display: block;
-        margin: 10px auto;
-        border-radius: 30px;
-        color: rgb(62, 41, 64);
-        box-shadow: 0px 5px 10px 0px;
-        transition: all 200ms ease-in-out;
-        background: white;
-        border: rgb(252, 110, 110);
-        font-size: 16px;
-        line-height: 22px;
-        cursor: pointer;
-    }
-
-    ul {
-        list-style: none;
-    }
-
-    .cover {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        max-width: 500px;
-        height: auto;
-    }
-
-    div {
-        text-align: center;
-    }
-
-    .contact {
-        color: black;
-    }
-
-
-    button:hover {
-        background: whitesmoke;
-        color: rgb(126, 207, 150)
-    }
-
-    #feedback {
-        border: 1px;
-        padding: 10px;
-        margin: 10px;
-    }
-
-    #feedback p {
-        margin: 0;
-    }
-
-    #feedback button {
-        padding: 16px 24px;
-        width: 70px;
-        display: block;
-        margin: 20px auto;
-        border-radius: 10px;
-        color: rgb(80, 55, 82);
-        box-shadow: 0px 5px 10px 0px;
-        transition: all 200ms ease-in-out;
-        background: white;
-        border: rgb(157, 140, 239);
-        font-size: 10px;
-        line-height: 22px;
-        text-decoration: none;
-        cursor: pointer;
-    }
-    .about{
-        color: black;
-        text-align: center;
-        font-size: 18px;
-        opacity: 0.7;
-        text-align: center;
-        font-family: monospace;
-    }
-
-    /* Add responsive CSS */
-    @media (max-width: 768px) {
-        .cover {
-            width: 80%;
-        }
-    }
-</style>
-</head>
-
+    </head>
 <body style="background-color: rgb(228, 218, 205);">
-    <h1>
-        Fortunate Feet 👣
-        <hr>
-    </h1>
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#images">Images</a>
+        <a href="#home">Style</a>
+    </div>
 
-    <h2>
-        <img src="https://insideguide.co.za/cape-town/app/uploads/2018/03/hiking-trails-western-cape.jpg" alt="cover image of myself on a hiking trail" class="cover" />
-        <em>
-            A step to victory
-        </em>
-            <p class="about">
-                The beauty of life is that we decide how we want each chapter of our life to look like. A step at a time can
-                change the
-                overall perspective of how one view life, it can alter ones mindset and change their entire lifestyle. I go on a
-                hike
-                whenever I need a change in altitude, The goal is never to get to the summit at the specific time but to focus
-                on each
-                step I make, each deep breath I take , the soothing and satisfying exhales. The sun kissing my skin, exotic
-                plants that
-                scream 'pick me, take me home with you' , the waterfalls that feel like they wash away all burdens of the world
-                not
-                forgetting rocky trails that mirrors life. Hiking helps me to be in tune with myself and to connect with nature.
-                Afterall nature teaches and heals.
+<section id="about">
+    <h1>About</h1>
+    <hr>
+    <div class="about-content">
+        <div class="image-container">
+            <img src="cover.jpg"
+                alt="cover image of myself on a hiking trail" class="cover" />
+        </div>
+        <div class="text-container">
+            <h2 class="about-heading">A step to victory</h2>
+            <p class="about-text">
+                The beauty of life is that we decide how we want each chapter of our life to look like. A step at a time
+                can change
+                the overall perspective of how one view life, it can alter ones mindset and change their entire
+                lifestyle. I go on a
+                hike whenever I need a change in altitude. The goal is never to get to the summit at a specific time but
+                to focus
+                on each step I make, each deep breath I take, the soothing and satisfying exhales. The sun kissing my
+                skin, exotic
+                plants that scream 'pick me, take me home with you', the waterfalls that feel like they wash away all
+                burdens of the world,
+                not forgetting rocky trails that mirror life. Hiking helps me to be in tune with myself and to connect
+                with nature.
+                After all, nature teaches and heals.
             </p>
-
-    </h2>
-    <h3>
-       <hr> <strong>Cape Town Trails Completed ✔ </strong> <br> <hr>
-  <ul>
-            <li>
-                Lion's Head
-            </li>
-            <li>
-                Newland's Forest
-            </li>
-            <li>
-                Constatia Nek & Four Reservoirs
-            </li>
-            <li>
-                Pipe Track
-            </li>
-            <li>
-                Devil's Peak
-            </li>
-            <li>
-                Kasteelspoort
-            </li>
-            <li>
-                Cecilia Forest
-            </li>
-            <li>
-                Platteklip Gorge
-            </li>
-            <li>
-                Signal Hill
-            </li>
-        </ul>
-    </h3>
-
-    <p>
-        There are a total of 355 hiking trails in Cape Town recognized by the Table Mountain National park. <br> . Read
-        more about hiking trails, essentials as well as health guides on the SANP site.<br>
-        <button>
-            <a href="https://www.sanparks.org/parks/table_mountain/tourism/safe_hiking.php">
-                South African National Parks
-            </a>
-        </button>
-     </p>
-    <div>
-        <p>
-        Inspiration images some of the previous <span style="color: rgb(80, 209, 80); font-weight: bold;"> <b>Hikes</b></span> i conquered in
-            the Mother City.
-        </p>
-        <img src="https://heremag-prod-app-deps-s3heremagassets-bfie27mzpk03.s3.amazonaws.com/wp-content/uploads/2019/03/14161645/IMG_9359-1200x900.jpg" width="100%" style="max-width: 500px;" /> <br> 
-        <img src="https://worldofwanderlust.com/wp-content/uploads/2020/06/Cape-Town-1-1152x1536.jpg" width="100%" style="max-width: 500px;"/> <br>
-        <br> <img src="https://www.capetown.travel/wp-content/uploads/2022/07/Table-Mountain-Camps-Bay-1024x472.jpg" width="100%" style="max-width: 500px;"/>`<br> 
-        <img src="https://insideguide.co.za/cape-town/app/uploads/2020/12/jonkershoek-nature-reserve-waterfall-hikes.jpg" width="100%" style="max-width: 500px;"/> <br> 
-        <img src="https://insideguide.co.za/cape-town/app/uploads/2020/12/bobbejaans-river-waterfall-hikes.jpg" width="100%" style="max-width: 500px;"/>
+        </div>
     </div>
-    <p>
-        view more of my hiking journey including pictures and Reels on Instagram
-    </p>
-    <button class="instagram">
-        <a href="https://www.instagram.com/limphomokoena/">Connect</a> 
-    </button>
-    <div id="feedback">
-        <pa> Did you find the page helpful?</pa>
-        <button onclick="yes()"><b>YES</b></button>
-        <button onclick="no()"><B>NO</B></button>
-    </div>
-<script>
-    function yes() {
-        alert("Thank you for your feedback.");
-    }
+</section>
+    <section id="contact">
+        <h1>Contact</h1>
+        <hr>
+        <div class="contact">
+            email: dimphomokay@gmail.com
+        </div>
+    </section>
 
-    function no() {
-        var reason = prompt("Please leave a message");
-    }
-</script>
-</body>
-</html>
+    <section id="images">
+        <h1>Images</h1>
+        <hr>
+        <div>
+    <div class="image-grid">
+        <div class="image">
+            <img src="dee.jpg" alt="Image 1" onclick="openModal('image1.jpg')">
+        </div>
+        <div class="image">
+            <img src="deee.jpg" alt="Image 2" onclick="openModal('image2.jpg')">
+        </div>
+        <div class="image">
+            <img src="six.jpg" alt="Image 3" onclick="openModal('image3.jpg')">
+        </div>
+    </div>
+    <div class="image-grid">
+        <div class="image">
+            <img src="forest.jpg" alt="Image 1" onclick="openModal('image3.jpg')">
+        </div>
+        <div class="image">
+            <img src="waterfall.jpg" alt="Image 2" onclick="openModal('image4.jpg')">
+        </div>
+        <div class="image">
+            <img src="eight.jpg" alt="Image 3" onclick="openModal('image5.jpg')">
+        </div>
+    </div>
+    <div class="image-grid">
+        <div class="image">
+            <img src="one.jpg" alt="Image 1" onclick="openModal('image6.jpg')">
+        </div>
+        <div class="image">
+            <img src="rock.jpg" alt="Image 2" onclick="openModal('image7.jpg')">
+        </div>
+        <div class="image">
+            <img src="five.jpg" alt="Image 3" onclick="openModal('image8.jpg')">
+        </div>
+    </div>
+    <div class="image-grid">
+        <div class="image">
+            <img src="consts.jpg" alt="Image 2" onclick="openModal('image10.jpg')">
+        </div>
+        <div class="image">
+            <img src="nine.jpg" alt="Image 3" onclick="openModal('image11.jpg')">
+        </div>
+        <div class="image">
+            <img src="cons.jpg" alt="Image 3" onclick="openModal('image11.jpg')">
+        </div>
+    </div>
+    </div>
+    <div class="image-grid">
+        <div class="image">
+            <img src="eight.jpg" alt="Image 2" onclick="openModal('image10.jpg')">
+        </div>
+        <div class="image">
+            <img src="ten.jpg" alt="Image 3" onclick="openModal('image11.jpg')">
+        </div>
+        <div class="image">
+            <img src="one.jpg" alt="Image 3" onclick="openModal('image11.jpg')">
+        </div>
+    </div>
+    <div class="image-grid">
+        <div class="image">
+            <img src="two.jpg" alt="Image 2" onclick="openModal('image10.jpg')">
+        </div>
+        <div class="image">
+            <img src="water.jpg" alt="Image 3" onclick="openModal('image11.jpg')">
+        </div>
+        <div class="image">
+            <img src="four.jpg" alt="Image 3" onclick="openModal('image11.jpg')">
+        </div>
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modal-image" src="" alt="Modal Image">
+    </div>
+    </section>
